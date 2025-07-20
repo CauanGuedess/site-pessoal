@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(43, 43, 46);
+}
+
+.nav {
+    justify-content: center;
+    background-color: black;
+}
+
+.contato {
+    color: white;
+    text-align: right;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.contato button {
+    margin-top: 0.3%;
+    margin-right: 5%;
+}
+
+.img-fluid {
+    border: solid rgb(11, 10, 65);
+    border-width: 3%;
+    border-radius: 10%;
+    width: 35%;
+    height: 400px;
+}
+
+.apresentacao {
+    display: flex;
+    margin-left: 12%;
+    margin-top: 8%;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    max-width: 32%;
+}
+
+#nome-ap {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#descricao {
+    color: white;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+    gap: 10%;
+}
+
+.texto button {
+    margin-top: 4%;
+    font-size: 120%;
+}
+
+.card {
+    margin-top: 10%;
+    background-color: rgb(53, 53, 53);
+}
+
+.card-text {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* PAGINA DE CONTATO */
+
+.formulario {
+    color: white;
+    margin-top: 5%;
+    margin-left: 37%;
+}
+
+.formulario input {
+    width: 40%;
+}
+
+.formulario textarea {
+    width: 40%;
+}
+
+/* PAGINA DO CURRICULO */
+
+.cabecario {
+    margin-top: 4%;
+    display: flex;
+    margin-bottom: 3%;
+}
+
+#foto-curriculo {
+    margin-left: 16%;
+    width: 9%;
+}
+
+#info {
+    margin-left: 1%;
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.secoes {
+    color: white;
+    max-width: 50%;
+    margin-left: 16%;
+    margin-bottom: 2%;
+}
+
+#botao-baixar {
+    margin-left: 16%;
+    margin-bottom: 2%;
+}
+
+/* PAGINA DO PORTFOLIO */
+
+.main {
+    color: white;
+    margin-top: 6%;
+    margin-left: 4%;
+    width: 60%;
+}
+
+#site-1 {
+    width: 100%;
+}
+
+.titulo {
+    font-size: 150%;
+}
+
+#imgs-layouts {
+    width: 50%;
+}
+
+.imagens-layouts {
+    display: flex;
+    width: 60%;
+}
